@@ -1,0 +1,72 @@
+
+/* === Additional Responsive Enhancements === */
+
+/* Hero Section Mobile Adjustments */
+@media (max-width: 767px) {
+  #hero h1 {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+  #hero p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+}
+
+/* Navbar Mobile Fixes */
+@media (max-width: 991px) {
+  .navbar ul {
+    display: none;
+  }
+  .navbar.navbar-mobile ul {
+    display: block;
+  }
+}
+
+/* Step Section Video and Layout */
+@media (max-width: 768px) {
+  .step video {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 200px;
+  }
+  .step {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+}
+
+/* Client Logo Adjustments */
+.logo-block img {
+  width: 70px;
+  height: auto;
+}
+@media (max-width: 480px) {
+  .logo-block img {
+    width: 60px;
+  }
+}
+
+/* Responsive Video and Iframe Embeds */
+video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* General Section Padding on Phones */
+@media (max-width: 767px) {
+  section {
+    padding: 40px 20px;
+  }
+  .section-header h3 {
+    font-size: 24px;
+  }
+}
+
+/* Touch Targets */
+button, a, .cta-btn {
+  min-width: 48px;
+  min-height: 48px;
+  padding: 10px 16px;
+  font-size: 1rem;
+}
